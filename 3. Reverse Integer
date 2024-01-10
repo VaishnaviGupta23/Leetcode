@@ -30,7 +30,7 @@ int main() {
     while(n!=0){
         int digit;
         digit=n%10;
-        if((ans>INT_MAX/10)||(ans<INT_MIN)){
+        if((ans>INT_MAX/10)||(ans<INT_MIN/10)){
             cout<<"out of range"<<endl;
         }
         ans=(ans*10)+digit;
